@@ -1,8 +1,10 @@
 /target/
 
+ZKEssential.iml
+
 **/.settings
 **/.idea
 **/.project
 **/.classpath
-ZKEssential.iml
+
 **/*.iml
