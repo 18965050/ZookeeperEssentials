@@ -1,7 +1,7 @@
 Apache ZooKeeper Essentials
 ==============
 
-Packet *Apache ZooKeeper Essentials* Ò»ÊéÔ´Âë
+Packet *Apache ZooKeeper Essentials* ä¸€ä¹¦æºç 
 
 ## Pre-requisites
 
@@ -9,5 +9,5 @@ Packet *Apache ZooKeeper Essentials* Ò»ÊéÔ´Âë
 - Maven 3.2.3 or better
 - ZooKeeper 3.4.5
 
-## ¶ÁÊé±Ê¼Ç
+## è¯»ä¹¦ç¬”è®°
 https://github.com/18965050/ZookeeperEssentials/wiki
