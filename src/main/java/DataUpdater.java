@@ -8,7 +8,7 @@ import org.apache.zookeeper.ZooKeeper;
 
 public class DataUpdater implements Watcher {
 	
-	private static String hostPort = "localhost:2181";
+	private static String hostPort = "192.168.51.26:2181";
 	private static String zooDataPath = "/MyConfig";
 	
 	ZooKeeper zk;

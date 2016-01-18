@@ -7,7 +7,8 @@ import org.apache.zookeeper.ZooKeeper;
 
 public class HelloZooKeeper {
     public static void main(String[] args) throws IOException {
-        String hostPort = "localhost:2181";
+    	//域名或者IP配置
+        String hostPort = "192.168.51.26:2181";
         String zpath = "/";
         List <String> zooChildren = new ArrayList <String> ();
         ZooKeeper zk = new ZooKeeper(hostPort, 2000, null);
