@@ -5,7 +5,7 @@ import org.apache.zookeeper.CreateMode;
 
 public class MyCuratorFrameworkClient {
 	public void simpleCuratorFrameworkClient() throws Exception {
-		CuratorFramework client = CuratorFrameworkFactory.newClient(server.getConnectString(), new RetryOneTime(1));
+		CuratorFramework client = CuratorFrameworkFactory.newClient("192.168.51.26:2181", new RetryOneTime(1));
 		client.start();
 
 		try {
